@@ -1,0 +1,35 @@
+.manager-students .manager-student {
+    padding: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E1E0E2;
+}
+
+.manager-students .manager-student-number,
+.manager-students .manager-student-name {
+    flex: 1;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #575757;
+}
+
+.manager-students .manager-student-number {
+    margin-left: 5rem;
+}
+
+.manager-students .manager-student-buttons {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.manager-students .manager-student-button__down {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.manager-students .manager-student-button__up {
+    width: 4rem;
+    margin-right: 1rem;
+}

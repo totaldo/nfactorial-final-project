@@ -1,0 +1,38 @@
+.companies-list-header-upper {
+    padding: 2.4rem;
+  }
+  
+  .companies-list-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .companies-list-header-text {
+    font-weight: 600;
+    font-size: 2.1rem;
+    color: #000000;
+  }
+  
+  .companies-list-header-el {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .companies-list-header-list {
+    padding: 2.4rem 5.5rem;
+    padding-right: 10rem;
+    background: #2A3042;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.7rem;
+  }
+  
+  .companies-list-header-list__left {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+  }
+  

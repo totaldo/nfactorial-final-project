@@ -1,0 +1,121 @@
+.item-list {
+    font-size: 1.6rem;
+    height: 100%;
+  }
+  
+  .item-list__el {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-list__container {
+    display: table;
+    height: 100%;
+  }
+  
+  .item-list__container__wrap {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+  }
+  
+  .item-list__add-date {
+    margin-left: 3rem;
+    cursor: pointer;
+  }
+  
+  .item-list__header {
+    font-weight: 600;
+    font-size: 3.6rem;
+    letter-spacing: -0.005em;
+    color: #FAFAFA;
+    margin-bottom: 1rem;
+  }
+  
+  .item-list:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+  
+  .item-list .flipped {
+    transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+  }
+  
+  .item-list .flipped .content {
+    transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+  }
+  
+  .item-list__table {
+    background-color: #FFF;
+    border-collapse: collapse;
+    border-radius: 2.5rem;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    max-width: 60vw;
+  }
+  
+  .item-list__table__comment {
+    border-radius: 50%;
+    left: 1rem;
+    top: 4rem;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item-list__table__delete {
+    border-radius: 50%;
+    right: 1rem;
+    top: 4rem;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+  }
+  
+  .item-list__table__dates {
+    overflow-x: overlay;
+    max-width: 45vw;
+  }
+  
+  .item-list__table__header {
+    border: 2px solid #57A66A;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    height: 5rem;
+    min-height: 5rem;
+  }
+  
+  .item-list__table-row__el {
+    height: 5rem;
+    min-height: 5rem;
+    width: 5rem;
+    min-width: 5rem;
+    border: 2px solid #57A66A;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+  
+  .item-list__table-row__el-changeable {
+    padding: 0;
+  }
+  
+  .item-list__table-row__el__input {
+    padding: 0;
+    border: none;
+    width: calc(100% - 1.5rem);
+    height: 100%;
+    text-align: center;
+  }
+  
+  .item-list__table-row__el__input::placeholder {
+    color: #000;
+    text-align: center;
+  }
+  

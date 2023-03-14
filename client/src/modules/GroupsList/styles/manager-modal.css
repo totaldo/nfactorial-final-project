@@ -1,0 +1,38 @@
+.manager-modal__container {
+    display: flex;
+    width: 95%;
+}
+
+.manager-modal__el {
+    flex: 1;
+}
+
+.manager-modal__el:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.manager-modal__header {
+    font-weight: 700;
+    font-size: 1.9rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.manager-modal__description {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: rgba(21, 25, 32, 0.5);
+    margin-bottom: 2rem;
+}
+
+.manager-modal__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2.4rem;
+}
+
+.manager-modal__form__main {
+    width: 100%;
+}

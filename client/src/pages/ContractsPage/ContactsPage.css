@@ -1,0 +1,35 @@
+.contracts-page {
+    min-height: calc(100vh - 11rem);
+    background: #4AA65F;
+    padding-top: 5rem;
+  }
+  
+  .contracts-page .container {
+    max-width: 147.2rem;
+  }
+  
+  .contracts-page__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contracts-page__main__el {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .contracts-page__header {
+    font-weight: 600;
+    font-size: 4.8rem;
+    letter-spacing: -0.005em;
+    color: #FAFAFA;
+  }
+  
+  .manager-modal__form_main__el {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  
